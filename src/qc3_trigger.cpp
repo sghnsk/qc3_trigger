@@ -1,11 +1,13 @@
 #include <Arduino.h>
 #include <QC3Control.h>
 
+//Pin 4 for Data+
+//Pin 3 for Data-
+// QC3Control quickCharge(4, 3);
+
 //Pin 3 for Data+
 //Pin 4 for Data-
-
-//See How to connect in the documentation for more details.
-QC3Control quickCharge(4, 3);
+QC3Control quickCharge(3, 4);
 
 void setup() {
   //Optional
