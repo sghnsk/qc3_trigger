@@ -313,15 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1850 2650 1850
 Wire Wire Line
-	2650 1850 2650 2850
-Wire Wire Line
-	2650 2850 3900 2850
-Wire Wire Line
 	3200 1850 3250 1850
-Wire Wire Line
-	3250 1850 3250 2950
-Wire Wire Line
-	3250 2950 3900 2950
 $Comp
 L power:+5V #PWR02
 U 1 1 61466908
@@ -344,4 +336,12 @@ NoConn ~ 3900 2550
 NoConn ~ 3900 2650
 NoConn ~ 3900 2750
 NoConn ~ 3900 3050
+Wire Wire Line
+	2650 1850 2650 2950
+Wire Wire Line
+	2650 2950 3900 2950
+Wire Wire Line
+	3250 1850 3250 2850
+Wire Wire Line
+	3250 2850 3900 2850
 $EndSCHEMATC
